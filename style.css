@@ -21,8 +21,8 @@ body{
     align-items: center;
 }
 button{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     padding: 5px;
     font-size: 18px;
     margin: 5px 5px;
@@ -39,7 +39,7 @@ button{
     background-color: #011d41;
     color: #fff;
     box-shadow:inset 4px 4px 8px rgba(0, 0, 0, 0.817), inset -2px -2px 4px rgba(255, 255, 255, 0.301);
-    width: 245px;
+    width: 222px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -49,4 +49,9 @@ button{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
     /* box-shadow: inset 4px 4px 8px rgba(0,0,0,0.4); */
+}
+@media only screen and (min-width:340px) {
+   .container{
+    margin: 0 50px;
+   }
 }
